@@ -118,7 +118,6 @@
 		{
 			"ShaderMapHash": "E6503C2E8F74884702D51521519C6289D3D113F0",
 			"Assets": [
-				"/Engine/EngineMaterials/Widget3DPassThrough",
 				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided"
 			]
 		},
@@ -493,6 +492,12 @@
 			"ShaderMapHash": "C9A4D4CD840437B97774B82ACF4E010081D2B1D3",
 			"Assets": [
 				"/Engine/EngineSky/M_SimpleSkyDome"
+			]
+		},
+		{
+			"ShaderMapHash": "90067FCE6D4B46FDC75547CE03AB42BA5CB5B00B",
+			"Assets": [
+				"/Game/Materials/MAT_GridMap"
 			]
 		},
 		{

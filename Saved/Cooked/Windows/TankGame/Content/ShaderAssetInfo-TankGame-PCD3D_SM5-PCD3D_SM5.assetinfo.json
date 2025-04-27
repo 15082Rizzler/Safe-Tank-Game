@@ -8,6 +8,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "7D1D15064EA8F2044D41DF7544C92E378827FE84",
+			"Assets": [
+				"/Game/Materials/MAT_GridMap"
+			]
+		},
+		{
 			"ShaderMapHash": "8A630A0B65390C34E759DC05D90F6D3E8C261488",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent"
@@ -82,8 +88,7 @@
 		{
 			"ShaderMapHash": "C568EE3990FE96E2FE4F8E87E721039CD2D9F0CF",
 			"Assets": [
-				"/Engine/EngineMaterials/Widget3DPassThrough",
-				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided"
+				"/Engine/EngineMaterials/Widget3DPassThrough"
 			]
 		},
 		{

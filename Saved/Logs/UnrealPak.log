@@ -1,10 +1,10 @@
-﻿Log file open, 03/23/25 22:02:01
+﻿Log file open, 04/27/25 20:06:35
 LogTrace: Initializing trace...
 LogTrace: Finished trace initialization.
 LogInit: Session CrashGUID >====================================================
-         Session CrashGUID >   UECC-Windows-5B64332841509F990623D197956C9F9E
+         Session CrashGUID >   UECC-Windows-A5D1F7CC43A6DF22FEACCBA970913B08
          Session CrashGUID >====================================================
-LogConfig: No local boot hotfix file found at: [../../../../../../Users/Anthony/Desktop/Tank-Game-main/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/Anthony/Documents/GitHub/Safe-Tank-Game/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
 LogPluginManager: Mounting Engine plugin PlatformCrypto
 LogInit: ExecutableName: UnrealPak.exe
 LogInit: Build: ++UE5+Release-5.5-CL-39772772
@@ -14,13 +14,13 @@ LogInit: DeviceId=
 LogInit: Engine Version: 5.5.3-39772772+++UE5+Release-5.5
 LogInit: Compatible Engine Version: 5.5.0-37670630+++UE5+Release-5.5
 LogInit: Net CL: 37670630
-LogInit: OS: Windows 10 (22H2) [10.0.19045.5608] (), CPU: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1660 SUPER
+LogInit: OS: Windows 10 (22H2) [10.0.19045.5737] (), CPU: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1660 SUPER
 LogInit: Compiled (64-bit): Feb  5 2025 22:49:28
 LogInit: Architecture: x64
 LogInit: Compiled with Visual C++: 19.38.33130.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE5+Release-5.5
-LogInit: Command Line: -CreateGlobalContainer=C:\Users\Anthony\Desktop\Tank-Game-main\Saved\StagedBuilds\Windows\TankGame\Content\Paks\global.utoc -PackageStoreManifest=C:\Users\Anthony\Desktop\Tank-Game-main\Saved\Cooked\Windows\TankGame\Metadata\packagestore.manifest -CookedDirectory=C:\Users\Anthony\Desktop\Tank-Game-main\Saved\Cooked\Windows -Commands="C:\Users\Anthony\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt" -ScriptObjects=C:\Users\Anthony\Desktop\Tank-Game-main\Saved\Cooked\Windows\TankGame\Metadata\scriptobjects.bin -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken -cryptokeys=C:\Users\Anthony\Desktop\Tank-Game-main\Saved\Cooked\Windows\TankGame\Metadata\Crypto.json -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -nopak
+LogInit: Command Line: -CreateGlobalContainer=C:\Users\Anthony\Documents\GitHub\Safe-Tank-Game\Saved\StagedBuilds\Windows\TankGame\Content\Paks\global.utoc -PackageStoreManifest=C:\Users\Anthony\Documents\GitHub\Safe-Tank-Game\Saved\Cooked\Windows\TankGame\Metadata\packagestore.manifest -CookedDirectory=C:\Users\Anthony\Documents\GitHub\Safe-Tank-Game\Saved\Cooked\Windows -Commands="C:\Users\Anthony\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt" -ScriptObjects=C:\Users\Anthony\Documents\GitHub\Safe-Tank-Game\Saved\Cooked\Windows\TankGame\Metadata\scriptobjects.bin -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken -cryptokeys=C:\Users\Anthony\Documents\GitHub\Safe-Tank-Game\Saved\Cooked\Windows\TankGame\Metadata\Crypto.json -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -nopak
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/Win64/
 LogInit: Allocator: Mimalloc
 LogInit: Installed Engine Build: 1
@@ -61,7 +61,7 @@ LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
 LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
 LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
 LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
-LogConfig: Branch 'PlatformCrypto' had been unloaded. Reloading on-demand took 0.70ms
+LogConfig: Branch 'PlatformCrypto' had been unloaded. Reloading on-demand took 0.39ms
 LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC.
 LogInit: Object subsystem initialized
 LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
@@ -69,157 +69,157 @@ LogConfig: CVar [[r.DumpShaderDebugInfo:2]] deferred - dummy variable created
 LogConfig: CVar [[p.chaos.AllowCreatePhysxBodies:1]] deferred - dummy variable created
 LogConfig: CVar [[fx.SkipVectorVMBackendOptimizations:1]] deferred - dummy variable created
 LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
-[2025.03.23-11.02.01:397][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
-[2025.03.23-11.02.01:397][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
-[2025.03.23-11.02.01:397][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
-[2025.03.23-11.02.01:397][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
-[2025.03.23-11.02.01:397][  0]LogInit: Computer: DESKTOP-46IQGCF
-[2025.03.23-11.02.01:397][  0]LogInit: User: Anthony
-[2025.03.23-11.02.01:397][  0]LogInit: CPU Page size=4096, Cores=6
-[2025.03.23-11.02.01:397][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2025.03.23-11.02.01:576][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
-[2025.03.23-11.02.01:576][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=32.2GB
-[2025.03.23-11.02.01:576][  0]LogMemory: Platform Memory Stats for WindowsEditor
-[2025.03.23-11.02.01:576][  0]LogMemory: Process Physical Memory: 53.57 MB used, 54.17 MB peak
-[2025.03.23-11.02.01:576][  0]LogMemory: Process Virtual Memory: 111.05 MB used, 111.05 MB peak
-[2025.03.23-11.02.01:576][  0]LogMemory: Physical Memory: 8456.48 MB used,  7838.62 MB free, 16295.11 MB total
-[2025.03.23-11.02.01:576][  0]LogMemory: Virtual Memory: 26362.98 MB used,  6633.73 MB free, 32996.71 MB total
-[2025.03.23-11.02.01:586][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2025.03.23-11.02.01:586][  0]LogUObjectArray: 438 objects as part of root set at end of initial load.
-[2025.03.23-11.02.01:586][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2025.03.23-11.02.01:586][  0]LogInit: Using OS detected language ().
-[2025.03.23-11.02.01:586][  0]LogInit: Using OS detected locale ().
-[2025.03.23-11.02.01:587][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
-[2025.03.23-11.02.01:587][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
-[2025.03.23-11.02.01:587][  0]LogInit: Using OS detected language ().
-[2025.03.23-11.02.01:587][  0]LogInit: Using OS detected locale ().
-[2025.03.23-11.02.01:588][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
-[2025.03.23-11.02.01:588][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
-[2025.03.23-11.02.01:588][  0]LogPakFile: Display: ProjectDir: ../../../../../../Users/Anthony/Desktop/Tank-Game-main/
-[2025.03.23-11.02.01:588][  0]LogIoStore: Display: ==================== IoStore Utils ====================
-[2025.03.23-11.02.01:590][  0]LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\Users\Anthony\Desktop\Tank-Game-main\Saved\Cooked\Windows\TankGame\Metadata\Crypto.json'
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Container signing - DISABLED
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Directory index - ENABLED
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Using compression format 'Oodle'
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Using memory mapping alignment '16384'
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Using compression block size '65536'
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Using compression block alignment '2048'
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Using compression min bytes saved '1024'
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Using compression min percent saved '5'
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Using max partition size '0'
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Not using DDC for compression
-[2025.03.23-11.02.01:594][  0]LogIoStore: Display: Using command list file: 'C:\Users\Anthony\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt'
-[2025.03.23-11.02.01:623][  0]LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
-[2025.03.23-11.02.01:624][  0]LogIoStore: Display: Fetched 508 oplog items from Manifest in 0.00 seconds
-[2025.03.23-11.02.01:627][  0]LogIoStore: Display: Parsed 508 oplog items 0.00 seconds, 623 chunks
-[2025.03.23-11.02.01:632][  0]LogIoStore: Display: Using input asset registry: C:/Users/Anthony/Desktop/Tank-Game-main/Saved/Cooked/Windows/TankGame/Metadata/DevelopmentAssetRegistry.bin
-[2025.03.23-11.02.01:640][  0]LogIoStore: Display: Loaded 122 chunk hashes from AssetRegistry in 0.01 seconds, 122 hashes updated in 0.00 seconds
-[2025.03.23-11.02.01:643][  0]LogIoStore: Display: Searching for cooked assets in folder 'C:\Users\Anthony\Desktop\Tank-Game-main\Saved\Cooked\Windows'
-[2025.03.23-11.02.01:656][  0]LogIoStore: Display: Found '1132' files
-[2025.03.23-11.02.01:678][  0]LogIoStore: Display: Creating container targets...
-[2025.03.23-11.02.01:680][  0]OodleDataCompression: Display: Oodle v2.9.12 format for pak/iostore with method=Kraken, level=4=Normal
-[2025.03.23-11.02.01:725][  0]LogIoStore: Display: Parsing packages...
-[2025.03.23-11.02.01:725][  0]LogIoStore: Display: Reading package assets...
-[2025.03.23-11.02.01:732][  0]LogIoStore: Display: Packages read 501 files in 0.01 seconds, 801,426 total bytes, 115,299,821 bytes per second
-[2025.03.23-11.02.01:735][  0]LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
-[2025.03.23-11.02.01:753][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 359 groups (135 of them didn't need new indices), average uncompressed size 157579 bytes, min 249 bytes, max 1042473 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.03.23-11.02.01:981][  0]LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 3890 shaders as 359 groups. Library size changed from 12673 KB (4.36 : 1 ratio) to 5613 KB (9.84 : 1 ratio), 44.29% of previous.
-[2025.03.23-11.02.02:050][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 474 groups (151 of them didn't need new indices), average uncompressed size 205251 bytes, min 1249 bytes, max 1023661 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.03.23-11.02.04:100][  0]LogIoStore: Display: Global-PCD3D_SM6(PCD3D_SM6): Recompressed 6420 shaders as 474 groups. Library size changed from 72467 KB (1.31 : 1 ratio) to 41324 KB (2.30 : 1 ratio), 57.02% of previous.
-[2025.03.23-11.02.04:124][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 161 groups (57 of them didn't need new indices), average uncompressed size 136619 bytes, min 490 bytes, max 982542 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.03.23-11.02.04:221][  0]LogIoStore: Display: TankGame-PCD3D_SM5(PCD3D_SM5): Recompressed 1577 shaders as 161 groups. Library size changed from 5792 KB (3.71 : 1 ratio) to 1930 KB (11.13 : 1 ratio), 33.33% of previous.
-[2025.03.23-11.02.04:257][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 182 groups (49 of them didn't need new indices), average uncompressed size 177779 bytes, min 2342 bytes, max 1046629 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.03.23-11.02.04:845][  0]LogIoStore: Display: TankGame-PCD3D_SM6(PCD3D_SM6): Recompressed 2336 shaders as 182 groups. Library size changed from 23852 KB (1.32 : 1 ratio) to 13997 KB (2.26 : 1 ratio), 58.68% of previous.
-[2025.03.23-11.02.04:852][  0]LogIoStore: Display: Shaders processed in 3.12 seconds
-[2025.03.23-11.02.04:855][  0]LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=6 (12 cores), MaxSourceBufferMemory=3072MiB
-[2025.03.23-11.02.04:860][  0]LogIoStore: Display: Processing redirects...
-[2025.03.23-11.02.04:860][  0]LogIoStore: Display: Creating disk layout...
-[2025.03.23-11.02.04:860][  0]LogIoStore: Display: Ordered 501 packages using fallback bundle order
-[2025.03.23-11.02.04:912][  0]LogIoStore: Display: Serializing container(s)...
-[2025.03.23-11.02.05:971][  0]LogIoStore: Display: Writing and compressing took 0.92 seconds, writes to disk took 0.37 seconds for 201,463,232 bytes @ 542,850,238 bytes per second.
-[2025.03.23-11.02.05:971][  0]LogIoStore: Display: global: Found perfect hashmap for 1 items.
-[2025.03.23-11.02.05:972][  0]LogIoStore: Display: TankGame-Windows: Found perfect hashmap for 1802 items.
-[2025.03.23-11.02.05:984][  0]LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 181,956 bytes, 17,932,529 bytes per second
-[2025.03.23-11.02.05:984][  0]LogIoStore: Display: Writing tocs... [Physical: 624 MiB, Virtual: 3344 MiB]
-[2025.03.23-11.02.05:984][  0]LogIoStore: Display: 122 / 1,803 hashes were loaded from the hash database, by type:
-[2025.03.23-11.02.05:984][  0]LogIoStore: Display:     BulkData                   122
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display: 623 / 1,803 chunks attempted to compress, by type:
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:     ExportBundleData           501 / 501
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:     BulkData                   122 / 122
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:     ScriptObjects              0 / 1
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:     ContainerHeader            0 / 1
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:     ShaderCodeLibrary          0 / 4
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:     ShaderCode                 0 / 1,174
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display: Source bytes read:
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:     Zen:                                  0
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:     Loose File:                 354,437,522
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:         ExportBundleData        328,829,438 bytes over 1,002 reads
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:         BulkData                 25,608,084 bytes over 122 reads
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:     Memory:                     129,890,962
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:         ShaderCodeLibrary         1,148,784 bytes over 8 reads
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display:         ShaderCode              128,742,178 bytes over 2,348 reads
-[2025.03.23-11.02.05:985][  0]LogIoStore: Display: Calculating stats...
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Container Summary
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ==================
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: global                                              -/-/-/-/-               1            0.62                 2.29                 2.29 -
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: TankGame-Windows                                    C/-/-/I/-            1802          177.07               244.95               189.84 (22.50% Oodle)
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Total                                                                    1803          177.69               247.24               192.13
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Compression block padding:     1.30 MiB
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Container Directory Index
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ==========================
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Container                                          Size (KiB)
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: global                                                   0.00
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: TankGame-Windows                                        30.04
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Container Patch Report
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ========================
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: global                                                      1                0                0             0.00             0.00
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: TankGame-Windows                                         1802                0             1802             0.00           188.54
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: PackageStore
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: =============
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: TankGame-Windows                                           16             501               0
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Total                                                      16             501               0
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Input:       501 Packages
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Input:      0.15 GB UExp
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Input:      0.00 GB UAsset
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Input:      0.02 GB UBulk
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Input:     45.84 MB for 833 Global shaders
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Input:      1.43 MB for 144 Shared shaders
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Input:     14.12 MB for 197 Inline shaders
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Output:     5239 Name map entries
-[2025.03.23-11.02.05:986][  0]LogIoStore: Display: Output:      521 Imported package entries
-[2025.03.23-11.02.05:987][  0]LogIoStore: Display: Output:      299 Packages without imports
-[2025.03.23-11.02.05:987][  0]LogIoStore: Display: Output:        0 Public runtime script objects
-[2025.03.23-11.02.05:987][  0]LogIoStore: Display: Output:     0.00 GB HeaderData
-[2025.03.23-11.02.05:987][  0]LogIoStore: Display: Output:     2.29 MB InitialLoadData
-[2025.03.23-11.02.05:987][  0]LogIoStore: Display: 
-[2025.03.23-11.02.05:998][  0]LogPakFile: Display: UnrealPak executed in 4.410312 seconds
-[2025.03.23-11.02.06:007][  0]LogCore: Engine exit requested (reason: UnrealPak Exiting)
-[2025.03.23-11.02.06:007][  0]LogExit: Preparing to exit.
-[2025.03.23-11.02.06:011][  0]LogExit: Object subsystem successfully closed.
-[2025.03.23-11.02.06:012][  0]LogPakFile: Destroying PakPlatformFile
-[2025.03.23-11.02.06:013][  0]LogExit: Exiting.
-[2025.03.23-11.02.06:028][  0]Log file closed, 03/23/25 22:02:06
+LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2025.04.27-10.06.35:658][  0]LogInit: Computer: DESKTOP-46IQGCF
+[2025.04.27-10.06.35:658][  0]LogInit: User: Anthony
+[2025.04.27-10.06.35:658][  0]LogInit: CPU Page size=4096, Cores=6
+[2025.04.27-10.06.35:658][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.04.27-10.06.35:737][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.04.27-10.06.35:737][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=31.4GB
+[2025.04.27-10.06.35:737][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.04.27-10.06.35:737][  0]LogMemory: Process Physical Memory: 54.14 MB used, 54.75 MB peak
+[2025.04.27-10.06.35:737][  0]LogMemory: Process Virtual Memory: 110.51 MB used, 110.51 MB peak
+[2025.04.27-10.06.35:737][  0]LogMemory: Physical Memory: 10002.95 MB used,  6292.16 MB free, 16295.11 MB total
+[2025.04.27-10.06.35:737][  0]LogMemory: Virtual Memory: 22096.34 MB used,  10070.77 MB free, 32167.11 MB total
+[2025.04.27-10.06.35:741][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2025.04.27-10.06.35:742][  0]LogUObjectArray: 438 objects as part of root set at end of initial load.
+[2025.04.27-10.06.35:742][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.04.27-10.06.35:742][  0]LogInit: Using OS detected language ().
+[2025.04.27-10.06.35:742][  0]LogInit: Using OS detected locale ().
+[2025.04.27-10.06.35:743][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2025.04.27-10.06.35:743][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2025.04.27-10.06.35:743][  0]LogInit: Using OS detected language ().
+[2025.04.27-10.06.35:743][  0]LogInit: Using OS detected locale ().
+[2025.04.27-10.06.35:743][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2025.04.27-10.06.35:743][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2025.04.27-10.06.35:743][  0]LogPakFile: Display: ProjectDir: ../../../../../../Users/Anthony/Documents/GitHub/Safe-Tank-Game/
+[2025.04.27-10.06.35:744][  0]LogIoStore: Display: ==================== IoStore Utils ====================
+[2025.04.27-10.06.35:745][  0]LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\Users\Anthony\Documents\GitHub\Safe-Tank-Game\Saved\Cooked\Windows\TankGame\Metadata\Crypto.json'
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Container signing - DISABLED
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Directory index - ENABLED
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Using compression format 'Oodle'
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Using memory mapping alignment '16384'
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Using compression block size '65536'
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Using compression block alignment '2048'
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Using compression min bytes saved '1024'
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Using compression min percent saved '5'
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Using max partition size '0'
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Not using DDC for compression
+[2025.04.27-10.06.35:748][  0]LogIoStore: Display: Using command list file: 'C:\Users\Anthony\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt'
+[2025.04.27-10.06.35:765][  0]LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+[2025.04.27-10.06.35:765][  0]LogIoStore: Display: Fetched 546 oplog items from Manifest in 0.00 seconds
+[2025.04.27-10.06.35:768][  0]LogIoStore: Display: Parsed 546 oplog items 0.00 seconds, 662 chunks
+[2025.04.27-10.06.35:771][  0]LogIoStore: Display: Using input asset registry: C:/Users/Anthony/Documents/GitHub/Safe-Tank-Game/Saved/Cooked/Windows/TankGame/Metadata/DevelopmentAssetRegistry.bin
+[2025.04.27-10.06.35:776][  0]LogIoStore: Display: Loaded 123 chunk hashes from AssetRegistry in 0.01 seconds, 123 hashes updated in 0.00 seconds
+[2025.04.27-10.06.35:782][  0]LogIoStore: Display: Searching for cooked assets in folder 'C:\Users\Anthony\Documents\GitHub\Safe-Tank-Game\Saved\Cooked\Windows'
+[2025.04.27-10.06.35:793][  0]LogIoStore: Display: Found '1209' files
+[2025.04.27-10.06.35:802][  0]LogIoStore: Display: Creating container targets...
+[2025.04.27-10.06.35:805][  0]OodleDataCompression: Display: Oodle v2.9.12 format for pak/iostore with method=Kraken, level=4=Normal
+[2025.04.27-10.06.35:835][  0]LogIoStore: Display: Parsing packages...
+[2025.04.27-10.06.35:835][  0]LogIoStore: Display: Reading package assets...
+[2025.04.27-10.06.35:852][  0]LogIoStore: Display: Packages read 539 files in 0.02 seconds, 1,209,207 total bytes, 71,868,376 bytes per second
+[2025.04.27-10.06.35:859][  0]LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+[2025.04.27-10.06.35:893][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 359 groups (135 of them didn't need new indices), average uncompressed size 157579 bytes, min 249 bytes, max 1042473 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.04.27-10.06.36:044][  0]LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 3890 shaders as 359 groups. Library size changed from 12673 KB (4.36 : 1 ratio) to 5613 KB (9.84 : 1 ratio), 44.29% of previous.
+[2025.04.27-10.06.36:222][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 474 groups (151 of them didn't need new indices), average uncompressed size 205251 bytes, min 1249 bytes, max 1023661 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.04.27-10.06.37:795][  0]LogIoStore: Display: Global-PCD3D_SM6(PCD3D_SM6): Recompressed 6420 shaders as 474 groups. Library size changed from 72467 KB (1.31 : 1 ratio) to 41324 KB (2.30 : 1 ratio), 57.02% of previous.
+[2025.04.27-10.06.37:805][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 162 groups (57 of them didn't need new indices), average uncompressed size 136220 bytes, min 490 bytes, max 982542 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.04.27-10.06.37:857][  0]LogIoStore: Display: TankGame-PCD3D_SM5(PCD3D_SM5): Recompressed 1585 shaders as 162 groups. Library size changed from 5817 KB (3.70 : 1 ratio) to 1936 KB (11.13 : 1 ratio), 33.30% of previous.
+[2025.04.27-10.06.37:869][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 183 groups (49 of them didn't need new indices), average uncompressed size 177350 bytes, min 2342 bytes, max 1046629 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.04.27-10.06.38:311][  0]LogIoStore: Display: TankGame-PCD3D_SM6(PCD3D_SM6): Recompressed 2345 shaders as 183 groups. Library size changed from 23926 KB (1.32 : 1 ratio) to 14037 KB (2.26 : 1 ratio), 58.67% of previous.
+[2025.04.27-10.06.38:314][  0]LogIoStore: Display: Shaders processed in 2.45 seconds
+[2025.04.27-10.06.38:315][  0]LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=6 (12 cores), MaxSourceBufferMemory=3072MiB
+[2025.04.27-10.06.38:316][  0]LogIoStore: Display: Processing redirects...
+[2025.04.27-10.06.38:317][  0]LogIoStore: Display: Creating disk layout...
+[2025.04.27-10.06.38:317][  0]LogIoStore: Display: Ordered 539 packages using fallback bundle order
+[2025.04.27-10.06.38:329][  0]LogIoStore: Display: Serializing container(s)...
+[2025.04.27-10.06.39:270][  0]LogIoStore: Display: Writing and compressing took 0.60 seconds, writes to disk took 0.20 seconds for 201,757,616 bytes @ 988,349,506 bytes per second.
+[2025.04.27-10.06.39:270][  0]LogIoStore: Display: global: Found perfect hashmap for 1 items.
+[2025.04.27-10.06.39:271][  0]LogIoStore: Display: TankGame-Windows: Found perfect hashmap for 1843 items.
+[2025.04.27-10.06.39:281][  0]LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 188,493 bytes, 17,546,964 bytes per second
+[2025.04.27-10.06.39:281][  0]LogIoStore: Display: Writing tocs... [Physical: 622 MiB, Virtual: 3365 MiB]
+[2025.04.27-10.06.39:281][  0]LogIoStore: Display: 123 / 1,844 hashes were loaded from the hash database, by type:
+[2025.04.27-10.06.39:281][  0]LogIoStore: Display:     BulkData                   123
+[2025.04.27-10.06.39:281][  0]LogIoStore: Display: 662 / 1,844 chunks attempted to compress, by type:
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:     ExportBundleData           539 / 539
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:     BulkData                   123 / 123
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:     ScriptObjects              0 / 1
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:     ContainerHeader            0 / 1
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:     ShaderCodeLibrary          0 / 4
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:     ShaderCode                 0 / 1,176
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Source bytes read:
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:     Zen:                                  0
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:     Loose File:                 376,254,638
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:         ExportBundleData        347,853,082 bytes over 1,078 reads
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:         BulkData                 28,401,556 bytes over 123 reads
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:     Memory:                     129,988,068
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:         ShaderCodeLibrary         1,150,256 bytes over 8 reads
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display:         ShaderCode              128,837,812 bytes over 2,352 reads
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Calculating stats...
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Container Summary
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ==================
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: global                                              -/-/-/-/-               1            0.62                 2.29                 2.29 -
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: TankGame-Windows                                    C/-/-/I/-            1843          183.45               257.08               190.12 (26.05% Oodle)
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Total                                                                    1844          184.08               259.38               192.41
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Compression block padding:     1.30 MiB
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Container Directory Index
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ==========================
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Container                                          Size (KiB)
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: global                                                   0.00
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: TankGame-Windows                                        31.78
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Container Patch Report
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ========================
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: global                                                      1                0                0             0.00             0.00
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: TankGame-Windows                                         1843                0             1843             0.00           188.81
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: PackageStore
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: =============
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: TankGame-Windows                                           17             539               0
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Total                                                      17             539               0
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Input:       539 Packages
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Input:      0.16 GB UExp
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Input:      0.00 GB UAsset
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Input:      0.03 GB UBulk
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Input:     45.84 MB for 833 Global shaders
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Input:      1.42 MB for 142 Shared shaders
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Input:     14.17 MB for 201 Inline shaders
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Output:     6114 Name map entries
+[2025.04.27-10.06.39:282][  0]LogIoStore: Display: Output:      598 Imported package entries
+[2025.04.27-10.06.39:284][  0]LogIoStore: Display: Output:      314 Packages without imports
+[2025.04.27-10.06.39:284][  0]LogIoStore: Display: Output:        0 Public runtime script objects
+[2025.04.27-10.06.39:284][  0]LogIoStore: Display: Output:     0.00 GB HeaderData
+[2025.04.27-10.06.39:284][  0]LogIoStore: Display: Output:     2.29 MB InitialLoadData
+[2025.04.27-10.06.39:284][  0]LogIoStore: Display: 
+[2025.04.27-10.06.39:290][  0]LogPakFile: Display: UnrealPak executed in 3.546597 seconds
+[2025.04.27-10.06.39:304][  0]LogCore: Engine exit requested (reason: UnrealPak Exiting)
+[2025.04.27-10.06.39:304][  0]LogExit: Preparing to exit.
+[2025.04.27-10.06.39:305][  0]LogExit: Object subsystem successfully closed.
+[2025.04.27-10.06.39:306][  0]LogPakFile: Destroying PakPlatformFile
+[2025.04.27-10.06.39:306][  0]LogExit: Exiting.
+[2025.04.27-10.06.39:317][  0]Log file closed, 04/27/25 20:06:39
